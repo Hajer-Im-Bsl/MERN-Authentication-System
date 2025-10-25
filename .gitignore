@@ -1,9 +1,10 @@
+# Server
 server/node_modules
 server/.env
-server/.gitignore
 
-client/.gitignore
+# Client
 client/node_modules
 client/.env
 
+.gitignore
 
