@@ -1,0 +1,83 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 280px;
+  max-width: 400px;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.formContainer > h2 {
+  margin: 0;
+  padding: 0;
+  align-self: start !important;
+}
+.formContainer a {
+  color: gray;
+  font-size: 14px;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: 0.5s;
+  margin-top: 1rem;
+}
+.formContainer a:hover {
+  border-bottom: 1px solid gray;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  width: 100%;
+}
+.inputContainer input,
+button {
+  height: 48px;
+  border-radius: 2rem;
+  outline: 0;
+  border: 0;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.inputContainer input {
+  padding-inline-start: 1rem;
+}
+.inputContainer > button {
+  background-color: rgb(130, 130, 230);
+  color: white;
+}
+.passwordContainer {
+  position: relative;
+}
+
+.passwordContainer input {
+  height: 48px;
+  border-radius: 2rem;
+  outline: 0;
+  border: 0;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  width: 100%;
+}
+.passwordContainer button {
+  position: absolute;
+  border-radius: 0;
+  background-color: white;
+  box-shadow: none;
+  cursor: pointer;
+  top: 15px;
+  right: 8px;
+  height: 20px;
+  color: gray;
+}
